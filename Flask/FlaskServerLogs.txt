@@ -12,3 +12,4 @@ INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:05:38] "GET / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:05:51] "GET /input_url?data=teja HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:05:58] "GET /input_url?data=ambati HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:06:07] "GET /input_url?data=ambati%20teja%20sai%20kumar HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:10:14] "GET /input_url?data=ambati%20teja%20sai%20kumar HTTP/1.1" 200 -
