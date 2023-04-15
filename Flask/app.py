@@ -1,7 +1,8 @@
 from flask import Flask
 from flask import request
+import logging
 app = Flask(__name__)
-
+logging.basicConfig(filename="FlaskServerLogs.txt",level = logging.INFO)
 @app.route("/")
 def hello_world():
     return "Hello World"
@@ -24,9 +25,11 @@ def test():
     a = 5+6
     return "This is my first function in flask {}".format(a)
 
+
+# http://localhost:5000/input_url?data=teja
 @app.route('/input_url')
 def request_input():
-    data = request.args.get('a')
+    data = request.args.get('data')
     return "This is my input from url {}".format(data)
 
 
