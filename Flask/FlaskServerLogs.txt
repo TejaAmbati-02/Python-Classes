@@ -1,0 +1,14 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.107:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.107:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:05:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:05:51] "GET /input_url?data=teja HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:05:58] "GET /input_url?data=ambati HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Apr/2023 16:06:07] "GET /input_url?data=ambati%20teja%20sai%20kumar HTTP/1.1" 200 -
