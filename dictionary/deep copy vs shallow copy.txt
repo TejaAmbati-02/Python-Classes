@@ -1,0 +1,2 @@
+deep copy -> .copy() -> Reserve a new space and in that new space it will save the data
+shallow copy -> = -> new variable point to same data

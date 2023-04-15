@@ -1,0 +1,3 @@
+Data has label -> Supervised
+Data has no output label -> Unsupervised
+Machine learn by itself -> Reinforecement. Ex: Alphago

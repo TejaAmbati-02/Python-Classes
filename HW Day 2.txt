@@ -1,0 +1,54 @@
+Task
+1 Take a input of age
+2 check whether age >=18 and age<=45
+3 display a message you are young blood
+============
+4
+## mall - input the product price
+## product >1000 rs 20% off
+## print the product price after removing the discount
+## product <=1000 rs 30% off
+## print the product price after removing the discount
+===============
+5
+## mall - input the product price
+## product >3000 rs 20% off
+## price is ==4000 you get a trip to Goa
+## print the product price after removing the discount
+## product >=2000 rs and <=3000 30% off
+## print the product price after removing the discount
+## price ==2999  u will get adiitional gift
+## product 100 rs and <=2000 40% off
+## print the product price after removing the discount
+=================
+Atm = 1,00,000
+Atm machine with 1000 rs with draw
+print amount
+===========================
+a = a+1 => a+=1 a-=1 
+
++ -> add
+- -> sub
+* -> Multiplication
+/ -> Division
+% -> Remainder
+// -> coefficient
+
+============================
+find index of 
++ve and -ve
+
+a = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+o/p 
+6 ->
+12 ->
+8 ->
+1 to 6 ->
+9 to 15 ->
+8 to 19 ->
+
+1 to 10 -> 
+odd numbers ->
+even ->
+2 to 12  get even num->
+======================================

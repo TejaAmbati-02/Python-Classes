@@ -1,0 +1,6 @@
+append()
+pop()
+reverse()
+sort()
+extend()
+== will not check the type of the value
