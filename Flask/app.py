@@ -29,7 +29,7 @@ def test():
 # http://localhost:5000/input_url?data=teja
 @app.route('/input_url')
 def request_input():
-    data = request.args.get('data')
+    data = request.args.get('data_var')
     return "This is my input from url {}".format(data)
 
 
