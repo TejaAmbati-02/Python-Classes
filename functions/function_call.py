@@ -16,7 +16,6 @@ def teja1(*teja):
 teja1("teja",1,2,3,4,5)
 
 
-
 # Call by Reference
 a = 10
 
