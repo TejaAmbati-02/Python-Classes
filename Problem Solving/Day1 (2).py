@@ -86,8 +86,8 @@
         #     b = c;
 
 
-a = 0
-b = 1
+# a = 0
+# b = 1
 
 
 # 0 1 1 2
@@ -110,6 +110,27 @@ b = 1
     
     
 
+# Fibanocci
+# n = int(input())
+# a=0
+# b=1
+# print(str(a) + " "+ str(b),end=" ")
+# for i in range(3, n+1):
+#         c = a+b
+#         print(c,end=" ")
+#         a=b
+#         b=c
+        
+# Palindrome
+# amma -> amma
+
+# name = input("Enter the string to find palindrome or not: ")
+
+# # for i in range(len(name)-1,0,-1):
+# if(name[::-1]==name):
+#         print("palindrome")
+# else:
+#         print("Not")
 
 
 # 8. To find out whether the given String is Palindrome or not.
@@ -120,7 +141,7 @@ b = 1
 
 
 # Solution 1 
-# strings = input("Enter the string to comapre for palindrome: ")
+# strings = input("Enter the string to compare for palindrome: ")
 # strings1 = ''
 # if(strings[::-1] == strings):
 #     print("Palindrome")
@@ -138,4 +159,35 @@ b = 1
 
 
 # 9. To find Armstrong Number between two given number
+
+
+# 1.6 -> 1 -> .16 -> 1.999999999999999999
+# 1.6 -> 2
+
+
+
+
+# 121 -> 3 -> 1**3 + 2***3 + 1**3
+
+# 121 -> len()
+# 121%10
+# 1&
+# 2
+# 1
+
+number = int(input("Enter the number to find armstrong number: "))
+temp =  number
+sum1 = 0
+
+while(number > 0):
+        rem = number % 10
+        sum1 = (sum1) + rem*rem*rem
+        number = number/ 10
+
+if(sum1 == temp):
+        print("Yes. It is Armstrong No.")
+else:
+        print(temp)
+        print(sum1)
+        print("No. It is not an Armstrong No.")
 
